@@ -1,6 +1,6 @@
 #! /usr/bin/make
-VERSION_NAME="Still Scaling the Ethereum Blockchain"
-VERSION=0.8.2.1
+VERSION_NAME="Still Rat Poison Squared on Steroids"
+VERSION=0.9.0-1
 
 ifeq ($(VERSION),)
 $(error "ERROR: git is required for generating version information")
