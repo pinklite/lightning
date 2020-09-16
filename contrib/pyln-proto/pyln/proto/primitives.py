@@ -129,6 +129,9 @@ class PublicKey(object):
     def serializeCompressed(self):
         return self.key.format(compressed=True)
 
+    def to_bytes(self) -> bytes:
+        return self.serializeCompressed()
+
     def __str__(self):
         return "PublicKey[0x{}]".format(
             self.serializeCompressed().hex()
